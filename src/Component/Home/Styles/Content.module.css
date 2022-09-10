@@ -1,0 +1,17 @@
+.content {
+  width: 75%;
+  margin: 0 22%;
+}
+.content p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+.content h5 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  padding-top: 20px;
+}

@@ -1,0 +1,42 @@
+.buttons {
+  display: flex;
+  width: 75%;
+  margin: 4% 22%;
+  gap: 20px;
+}
+.buttons .buttonOne {
+  font-size: 13;
+  font-weight: 700;
+  line-height: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #286ef1;
+  border: none;
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+}
+.buttons .buttonOne a {
+  text-decoration: none;
+  color: #fff;
+}
+.buttons .buttonTow {
+  font-size: 13;
+  font-weight: 700;
+  line-height: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  border: none;
+  width: 165px;
+  height: 40px;
+}
+.buttons .buttonTow a {
+  text-decoration: none;
+  color: #286ef1;
+}
+
+/* Media Query */
+@media screen and (max-width: 570px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
